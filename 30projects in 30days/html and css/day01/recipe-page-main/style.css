@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(243, 230, 216);
+}
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(48, 45, 44);
+    margin: 20px 0px;
+}
+
+h2 {
+    font-weight: 400;
+    color: rgb(133, 70, 50);
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    color: rgb(123, 40, 79);
+}
+
+p {
+    font-size: 16px;
+    color: rgb(95, 87, 78);
+    margin: 16px 0px;
+}
+
+.bold-font {
+    font-weight: 800;
+}
+
+ol, ul {
+    padding: 0px 30px;
+}
+
+.recipe-container {
+    background-color: #ffffff;
+    width: 650px;
+    border-radius: 18px;
+    margin: 100px auto 40px;
+    padding: 35px;
+}
+
+.recipe-image img {
+    width: 650px;
+    border-radius: 12px;
+}
+
+section {
+    margin: 26px 0px;
+}
+
+.section-first {
+    padding: 30px;
+    background-color: rgb(255, 245, 250);
+    border-radius: 16px;
+}
+
+.box1, .box2 {
+    display: inline-block;
+}
+.box1 {
+    width: 280px;
+    margin-left: 30px;
+}
+.box2 {
+    font-weight: 800;
+    color: rgb(133, 70, 50);
+}
+
+.footer-section {
+    margin: 0px auto 10px;
+    padding: 10px;
+    top: 10px;
+}
+.footer-section div {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+}
+.footer-section div a {
+    text-decoration: none;
+    color: #5080d9;
+}
+.footer-section div a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+    .recipe-container {
+        width: 380px;
+        margin: 0px auto 5px;
+        padding: 2px;
+    }    
+    .recipe-image img {
+        width: 380px;
+    }
+    .box1 {
+        width: 120px;
+        margin-left: 60px;
+    }
+    h1, h2, h3 {
+        margin: 20px;
+    }
+    header p {
+        font-size: 20px;
+    }
+    p {
+        margin: 16px;
+    }    
+    ol, ul {
+        padding: 0px 33px;
+    }
+    .section-first {
+        margin: 30px;
+        padding: 5px 20px;
+    }
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(20, 20, 20);
+}
+
+.main-container {
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    width: 360px;
+    height: 573px;
+    margin: 100px auto 20px;
+    border-radius: 10px;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 20px;
+}
+.main-header p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.profile-photo img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header-navbar {
+    margin: 14px 0;
+}
+.header-navbar div {
+    margin-top: 7px;
+    color: rgb(197, 248, 42);
+    font-weight: 600;
+}
+.btn-section {
+    padding: 0px 45px 10px;
+}
+.btn-section a {
+    display: block;
+    color: #ffffff;
+    background-color: rgb(51, 51, 51);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    margin: 13px 0px;
+    padding: 12px 0px;
+    width: 280px;
+    font-weight: 600;
+}
+.btn-section a:hover {
+    color: rgb(20, 20, 20);
+    background-color: rgb(197, 248, 42);
+}
+
+.footer-section {
+    margin: 10px auto;
+    padding: 10px;
+    top: 10px;
+}
+.footer-section div {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+.footer-section div a {
+    text-decoration: none;
+    color: #5080d9;
+}
+.footer-section div a:hover {
+    text-decoration: underline;
+}
