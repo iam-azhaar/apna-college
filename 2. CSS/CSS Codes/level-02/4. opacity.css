@@ -1,0 +1,49 @@
+/*
+    Exercise: Opacity Property
+
+    Description:
+    This CSS file defines styles for elements to demonstrate the opacity property.
+
+    1. The .opaque class styles an element with full opacity.
+    2. The .semi-transparent class styles an element with partial opacity.
+*/
+
+/* Styles for fully opaque element */
+.opaque {
+    opacity: 1; /* Fully opaque */
+    background-color: #0000ff; /* Blue */
+    color: #ffffff; /* White */
+}
+
+/* Styles for semi-transparent element */
+.semi-transparent {
+    opacity: 0.5; /* Semi-transparent */
+    background-color: #ff0000; /* Red */
+    color: #000000; /* Black */
+}
+
+
+/* Exercise */
+.box {
+    width: 150px;
+    height: 150px;
+    
+    border: 1px solid #000000;
+    border-radius: 10px;
+    
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.box1 {
+    background-color: rgba(4, 170, 109, 1);
+}
+.box2 {
+    background-color: rgba(4, 170, 109, 0.800);
+}
+.box3 {
+    background-color: rgba(4, 170, 109, 0.500);
+}
+.box4 {
+    background-color: rgba(4, 170, 109, 0.100);
+}

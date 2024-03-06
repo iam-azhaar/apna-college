@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units in CSS | Level 03</title>
+    <link rel="stylesheet" href="./1. units-css.css">
+</head>
+<body>
+    <h1>Units in CSS</h1>
+    <div>
+        <ul>
+            <li>CSS has several different units for expressing a length.</li>
+            <li>Many CSS properties take "length" values, such as <b>width</b>, <b>margin</b>, <b>padding</b>, <b>font-size</b>, etc.</li>
+            <br>
+            <li>There are two types of length units:- 
+                <ul>
+                    <li>
+                        <b>Absolute Units. (px)</b>
+                    </li>
+                    <br>
+                    <li>
+                        <b>Relative Units. (%, em, rem)</b>
+                        <ul>
+                            <li>Relative length units specify a length relative to another length property. Relative length units scale better between different rendering mediums.</li>
+                            <li>
+                                <table border>
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <b>Unit</b>
+                                            </th>
+                                            <th>
+                                                <b>Description</b>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>%</td>
+                                            <td>Relative to the parent element.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>em</td>
+                                            <td>Relative to the font-size of the element (2em means 2 times the size of the current font)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>rem</td>
+                                            <td>Relative to font-size of the root element</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    <hr class="break">
+    
+    <div class="percentage border">
+        Percentage (%)
+        <div class="child border">
+            Child Div
+        </div>
+    </div>
+
+    <hr class="break">
+    
+    <div class="em border">
+        Lorem, ipsum. 
+        <div class="child-em border">
+            Lorem, ipsum dolor.
+        </div>
+    </div>
+
+    <hr class="break">
+
+    <div>
+        Div Default Font Size: 16px
+    </div>
+    <div class="rem border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quasi!
+    </div>
+
+    <hr class="break">
+
+    <div class="vh-vw border">
+        <div class="child-vw-vh">
+
+        </div>
+    </div>
+
+</body>
+</html>

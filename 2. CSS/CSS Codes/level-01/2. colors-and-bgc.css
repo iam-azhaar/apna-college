@@ -1,0 +1,33 @@
+h2 {
+    color: chartreuse; /* Setting text color of h2 elements to chartreuse */
+}
+
+p {
+    background-color: coral; /* Setting background color of paragraphs to coral */
+}
+
+button {
+    color: white; /* Setting text color of buttons to white */
+    background-color: cornflowerblue; /* Setting background color of buttons to cornflowerblue */
+}
+
+ul {
+    color: white; /* Setting text color of unordered lists to white */
+}
+
+body {
+    /* Setting background color of the entire body to a mix of red and green */
+    background-color: rgb(128, 128, 0); /* RGB values for the background color */
+}
+
+span {
+    background-color: rgb(0, 0, 0); /* Setting background color of spans to black */
+}
+
+a {
+    color: white; /* Setting text color of links to white */
+}
+
+pre {
+    background-color: #ffffff; /* Setting background color of preformatted text to white */
+}

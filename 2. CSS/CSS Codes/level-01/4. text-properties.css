@@ -1,0 +1,58 @@
+/* Text alignment */
+.text-align {
+    text-align: center; /* Aligns text to the center */
+}
+
+/* Text decoration */
+.text-decoration {
+    text-decoration: underline; /* Adds underline decoration */
+    text-decoration: blue dashed underline; /* Sets blue dashed underline */
+    text-decoration: red wavy underline; /* Sets red wavy underline */
+}
+
+a {
+    text-decoration: none; /* Removes underline decoration for links */
+}
+
+/* Font weight */
+.font-weight {
+    font-weight: 700; /* Sets font weight to bold */
+}
+
+/* Font family */
+.font-family {
+    font-family: "Roboto", sans-serif; /* Sets font family to Roboto, fallback to sans-serif */
+    font-weight: 400; /* Sets font weight to normal */
+}
+
+/* Nesting Selector */
+div span {
+    font-family: cursive, sans-serif; /* Sets font family for span elements inside div */
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif; /* Sets font family for h1 and h2 elements */
+}
+
+/* Units in CSS (Absolute) */
+.unit-one {
+    font-size: 20px; /* Sets font size to 20 pixels */
+}
+.unit-two {
+    font-size: 29px; /* Sets font size to 29 pixels */
+}
+.unit-three {
+    font-size: 34px; /* Sets font size to 34 pixels */
+}
+
+/* Line height */
+.line-height {
+    background-color: #000000; /* Sets background color to black */
+    color: rgb(255, 255, 255); /* Sets text color to white */
+    line-height: 50px; /* Sets line height to 50 pixels */
+}
+
+/* Text transformation */
+.text-transform {
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+}

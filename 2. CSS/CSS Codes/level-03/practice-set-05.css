@@ -1,0 +1,39 @@
+body {
+    font-family: cursive;
+
+    /* width: 100vw; */
+    height: 1000vh;
+}
+
+.div {
+    width: 200px;
+    height: 200px;
+
+    border: 2px solid #000;
+    border-radius: 14px;
+
+    margin: 10px;
+    background-color: rgba(210, 105, 30, 0.800);
+}
+
+.position {
+    position: sticky;
+    top: 30px;
+}
+
+.bgi {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+    background-image: url("./stars-image.jpg");
+    background-size: cover;
+
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+}
+.bgi p {
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}

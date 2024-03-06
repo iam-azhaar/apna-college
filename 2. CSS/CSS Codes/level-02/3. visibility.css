@@ -1,0 +1,29 @@
+/*
+    Exercise: Visibility Property
+
+    Description:
+    This CSS file defines styles for elements to demonstrate the visibility property.
+
+    1. The .visible class styles an element that is visible.
+    2. The .invisible class styles an element that is invisible but still occupies space.
+    3. The .invisible-space class styles an element that is invisible and does not occupy space.
+*/
+
+/* Styles for visible element */
+.visible {
+    visibility: visible;
+    background-color: #00ff00; /* Green */
+}
+
+/* Styles for invisible element */
+.invisible {
+    visibility: hidden;
+    background-color: #ff0000; /* Red */
+}
+
+/* Styles for invisible element without occupying space */
+.invisible-space {
+    visibility: hidden;
+    display: none;
+    background-color: #0000ff; /* Blue */
+}

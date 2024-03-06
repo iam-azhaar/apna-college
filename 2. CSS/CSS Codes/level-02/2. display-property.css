@@ -1,0 +1,62 @@
+/*
+    Exercise: Display Property
+
+    Description:
+    This CSS file defines styles for a set of boxes and demonstrates various uses of the display property.
+
+    1. The body element is styled with a background color and font family.
+    2. The .inline class styles an inline element with red text on a black background.
+    3. The .block class styles a block-level element with white text on a black background and adds a margin.
+    4. The .box class styles a box element with a fixed width, height, border, border radius, margin, and center-aligned text. It is displayed as an inline-block.
+    5. The .box1, .box2, and .box3 classes each define a different background color for the box elements.
+    6. The .box4 class hides the element by setting its display property to none.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(200, 200, 200);
+}
+
+/* Styles an inline element */
+.inline {
+    color: #f00;
+    background-color: #000;
+    display: inline;
+}
+
+/* Styles a block-level element */
+.block {
+    color: #fff;
+    background-color: #000;
+    margin: 20px 0px;
+    display: block;
+}
+
+/* Styles a box element */
+.box {
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    margin: 10px auto;
+    text-align: center; /* Relative to parent */
+    display: inline-block;
+}
+
+/* Different background colors for box elements */
+.box1 {
+    background-color: #f00; /* Red */
+}
+.box2 {
+    background-color: #0f0; /* Green */
+}
+.box3 {
+    background-color: #00f; /* Blue */
+}
+
+/* Hides the element */
+.box4 {
+    background-color: crimson;
+    display: none;
+}

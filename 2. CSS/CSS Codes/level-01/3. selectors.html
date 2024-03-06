@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS | Level-01</title>
+
+    <!-- Linking to an external CSS file -->
+    <link rel="stylesheet" href="./selectors.css">
+</head>
+<body>
+    <h1>Selectors</h1>
+
+    <!-- Universal Selector -->
+    <h2>
+        <ul>
+            <li>Universal Selector: 
+                <ul type="square">
+                    <li>* {}</li>
+                </ul>
+            </li>
+        </ul>
+    </h2>
+    <br>
+    <!-- Element Selector -->
+    <h2>
+        <ul>
+            <li>Element Selector: 
+                <ul type="square">
+                    <li>h1 {}</li>
+                </ul>
+            </li>
+        </ul>
+    </h2>
+    <br>
+    <!-- Id Selector -->
+    <h2>
+        <ul>
+            <li>Id Selector: 
+                <ul type="square">
+                    <li>#myId {}</li>
+                </ul>
+            </li>
+        </ul>
+    </h2>
+    <br>
+    <!-- Class Selector -->
+    <h2>
+        <ul>
+            <li>Class Selector: 
+                <ul type="square">
+                    <li>.myClass {}</li>
+                </ul>
+            </li>
+        </ul>
+    </h2>
+    <br>
+    
+    <!-- Image to illustrate the cascading order of CSS -->
+    <img src="./assets/cascade-order.png" alt="css-cascading-order" width="600px">
+    
+    <hr>
+    <br>
+
+    <!-- Sections demonstrating the usage of Id Selector and Class Selector -->
+    <main>
+        <!-- Id Selector -->
+        <section id="myId">
+            <h2>Id Selector</h2>
+            <ul type="circle">
+                <li>
+                    <b>The id of an element is unique within a page, so the id selector is used to select one unique element!</b>
+                </li>
+                <li>To select an element with a specific id, write a hash (#) character, followed by the id of the element.</li>
+            </ul>
+        </section>
+        <br>
+        <!-- Class Selector -->
+        <section class="myClass">
+            <h2>Class Selector</h2>
+            <ul type="square">
+                <li>The class selector selects HTML elements with a specific class attribute.</li>
+                <li>To select elements with a specific class, write a period (.) character, followed by the class name.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

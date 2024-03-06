@@ -1,0 +1,25 @@
+/* Ques: 01. Styling for heading */
+.heading {
+    font-size: 30px; /* Sets the font size to 30 pixels */
+    font-weight: 600; /* Sets the font weight to bold */
+
+    text-transform: capitalize; /* Transforms text to capitalize */
+    text-align: center; /* Aligns text to the center */
+}
+
+/* Ques: 02. Styling for fonts */
+.fonts {
+    font-family: cursive, sans-serif; /* Sets font family to cursive with fallback to sans-serif */
+}
+
+/* Ques: 03. Styling for outer and inner divs */
+.outer {
+    font-size: 25px; /* Sets the font size to 25 pixels */
+
+    background-color: chocolate; /* Sets the background color to chocolate brown */
+}
+.inner {
+    font-size: 14px; /* Sets the font size to 14 pixels */
+    
+    background-color: yellowgreen; /* Sets the background color to yellow-green */
+}

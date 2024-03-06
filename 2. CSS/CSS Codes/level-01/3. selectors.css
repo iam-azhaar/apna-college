@@ -1,0 +1,30 @@
+/* Universal Selector */
+* {
+    /* Applies styles to all elements */
+    /* background-color: lightyellow; */
+}
+
+/* Element Selector */
+h1 {
+    /* Targets all <h1> elements */
+    color: royalblue; /* Overrides the previous color value */
+}
+
+/* Element Selector */
+h2 {
+    /* Targets all <h2> elements */
+    color: firebrick; /* Overrides the previous color value */
+}
+
+/* Id Selector */
+#myId {
+    /* Targets an element with id="myId" */
+    background-color: yellowgreen;
+}
+
+/* Class Selector */
+.myClass {
+    /* Targets elements with class="myClass" */
+    color: white;
+    background-color: teal;
+}

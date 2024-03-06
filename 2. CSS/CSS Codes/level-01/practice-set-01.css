@@ -1,0 +1,19 @@
+/* Styling for the box element */
+#box {
+    background-color: deepskyblue; /* Sets the background color to deep sky blue */
+}
+
+/* Styling for headings with the class "heading" */
+.heading {
+    color: red; /* Sets the text color to red */
+}
+
+/* Grouping Selector: Styling for h1, h2, and h3 elements */
+h1, h2, h3 {
+    color: red; /* Sets the text color to red for h1, h2, and h3 elements */
+}
+
+/* External CSS File: Styling for button elements */
+button {
+    background-color: green; /* Sets the background color to green for button elements */
+}
