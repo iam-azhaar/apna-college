@@ -4,13 +4,13 @@
     /* background-color: lightyellow; */
 }
 
-/* Element Selector */
+/* Element Selector for h1 */
 h1 {
     /* Targets all <h1> elements */
     color: royalblue; /* Overrides the previous color value */
 }
 
-/* Element Selector */
+/* Element Selector for h2 */
 h2 {
     /* Targets all <h2> elements */
     color: firebrick; /* Overrides the previous color value */

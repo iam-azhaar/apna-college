@@ -6,7 +6,13 @@
 /* Text decoration */
 .text-decoration {
     text-decoration: underline; /* Adds underline decoration */
+}
+
+.text-decoration.blue {
     text-decoration: blue dashed underline; /* Sets blue dashed underline */
+}
+
+.text-decoration.red {
     text-decoration: red wavy underline; /* Sets red wavy underline */
 }
 

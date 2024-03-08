@@ -6,6 +6,10 @@
 /* Styling for headings with the class "heading" */
 .heading {
     color: red; /* Sets the text color to red */
+    font-size: 30px; /* Sets the font size to 30 pixels */
+    font-weight: 600; /* Sets the font weight to bold */
+    text-transform: capitalize; /* Transforms text to capitalize */
+    text-align: center; /* Aligns text to the center */
 }
 
 /* Grouping Selector: Styling for h1, h2, and h3 elements */
