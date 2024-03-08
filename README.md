@@ -1,1 +1,1 @@
-# Apna College (Codes and Notes)
+# Apna College: Codes and Notes Repo :)
