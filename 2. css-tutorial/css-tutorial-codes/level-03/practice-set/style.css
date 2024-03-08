@@ -1,0 +1,49 @@
+/* Setting the font family for the entire body */
+body {
+    font-family: cursive;
+
+    /* Setting the height of the body to accommodate content */
+    height: 1000vh;
+}
+
+/* Styling the div elements */
+.div {
+    width: 200px; /* Width of the div */
+    height: 200px; /* Height of the div */
+
+    border: 2px solid #000; /* Adding border to the div */
+    border-radius: 14px; /* Adding border radius to create rounded corners */
+
+    margin: 10px; /* Setting margin around the div */
+    background-color: rgba(210, 105, 30, 0.800); /* Setting background color with transparency */
+}
+
+/* Styling the positioned div */
+.position {
+    position: sticky; /* Setting the position to sticky */
+    top: 30px; /* Setting the top offset */
+}
+
+/* Styling the div with background image */
+.bgi {
+    position: fixed; /* Setting the position to fixed */
+    right: 10px; /* Setting the right offset */
+    bottom: 10px; /* Setting the bottom offset */
+
+    /* Adding background image */
+    background-image: url("./stars-image.jpg");
+    background-size: cover; /* Setting background size to cover the entire container */
+
+    /* Additional options for background size:
+       background-size: contain; // Fits the image within the container without stretching */
+    
+    /* Additional options for background repeat:
+       background-repeat: no-repeat; // Prevents the background image from repeating */
+}
+
+/* Styling the paragraph within the div with background image */
+.bgi p {
+    color: #fff; /* Setting text color to white */
+    text-align: center; /* Center aligning the text */
+    z-index: 1; /* Setting z-index to ensure the text is displayed above the background image */
+}

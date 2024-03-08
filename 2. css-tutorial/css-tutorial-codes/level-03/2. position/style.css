@@ -1,0 +1,55 @@
+/* Setting default font family and height for the body */
+body {
+    font-family: sans-serif;
+    height: 300vh; /* Example height, adjust as needed */
+}
+
+/* Styling for all div elements */
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(220, 20, 60); /* Example background color, modify as desired */
+}
+
+/* Applying styles for static positioning */
+.static {
+    position: static; /* Default position */
+    /* Top, bottom, left, right, and z-index properties don't work in Static Position */
+    top: 50px; /* Ignored in static position */
+}
+
+/* Applying styles for relative positioning */
+.relative {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    background-color: rgb(210, 105, 30); /* Example background color, modify as desired */
+    z-index: 3; /* Setting the stacking order */
+}
+
+/* Applying styles for absolute positioning */
+.absolute {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2; /* Setting the stacking order */
+}
+
+/* Applying styles for fixed positioning */
+.fixed {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* Applying styles for sticky positioning */
+.sticky {
+    position: sticky;
+    top: 20px;
+}

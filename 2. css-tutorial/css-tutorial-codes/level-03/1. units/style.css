@@ -1,0 +1,71 @@
+/* Resetting default margin, padding, and box-sizing */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Setting body font family */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for horizontal rule */
+.break {
+    display: block;
+    margin: 40px 0px;
+}
+
+/* Styling for container using percentage (%) */
+.percentage {
+    width: 300px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    background-color: rgba(0, 255, 0, 0.4); /* Semi-transparent green background */
+}
+
+/* Styling for child div within percentage container */
+.child {
+    width: 50%; /* 50% width of its parent */
+    height: 100px; /* Fixed height */
+    background-color: rgba(255, 0, 0, 0.4); /* Semi-transparent red background */
+    margin-left: 10%; /* 10% left margin within its parent */
+}
+
+/* Styling for container with border */
+.border {
+    border: 1px solid #000; /* Black border */
+    text-align: center; /* Center-align content */
+    padding: 10px; /* Add padding */
+}
+
+/* Styling for container using em unit */
+.em {
+    width: 300px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    font-size: 15px; /* Default font size */
+}
+
+/* Styling for child div within em container */
+.child-em {
+    font-size: 2em; /* Double the font size of its parent */
+    width: 5em; /* 5 times the font size of its parent */
+}
+
+/* Styling for container using rem unit */
+.rem {
+    width: 20rem; /* 20 times the font size of the root element */
+}
+
+/* Styling for container using viewport units (vh and vw) */
+.vh-vw {
+    width: 100vw; /* 100% width of the viewport */
+    height: 100vh; /* 100% height of the viewport */
+    background-color: rgb(210, 105, 30); /* Brown background color */
+}
+
+/* Styling for child div within vh-vw container */
+.child-vw-vh {
+    width: 50vw; /* 50% width of the viewport */
+    height: 50vh; /* 50% height of the viewport */
+    background-color: rgb(100, 149, 237); /* Light blue background color */
+}

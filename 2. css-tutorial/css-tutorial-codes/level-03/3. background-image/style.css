@@ -1,0 +1,25 @@
+/* Setting the font family for the entire body */
+body {
+    font-family: sans-serif;
+}
+
+/* Styling the container for the background image */
+.background-image {
+    width: 500px; /* Width of the container */
+    height: 500px; /* Height of the container */
+
+    border: 2px solid #000; /* Adding border to the container */
+    border-radius: 14px; /* Adding border radius to create rounded corners */
+
+    background-image: url("./cat-image.jpg"); /* Adding the background image */
+    
+    /* Setting the background image size to cover the entire container */
+    background-size: cover;
+    
+    /* Additional options for background size:
+       background-size: auto; // Default value
+       background-size: contain; // Fits the image within the container without stretching */
+    
+    /* Additional options for background repeat:
+       background-repeat: no-repeat; // Prevents the background image from repeating */
+}
