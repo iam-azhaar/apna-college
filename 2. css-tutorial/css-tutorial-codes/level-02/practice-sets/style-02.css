@@ -1,0 +1,71 @@
+/* Apply reset styles to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: chartreuse; /* Background color for the header */
+}
+
+/* Navigation list items */
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* Anchor tag styling */
+li a {
+    text-decoration: none; /* Remove underline from anchor text */
+
+    color: #000; /* Text color */
+    background-color: #fff; /* Background color */
+    border: 1px solid #000; /* Border */
+    border-radius: 6px; /* Border radius */
+
+    margin: 20px 110px; /* Margin */
+    padding: 4px 12px; /* Padding */
+    display: inline-block;
+}
+
+/* Section styling */
+section {
+    width: 300px; /* Width */
+    height: 300px; /* Height */
+
+    border: 1px solid #000; /* Border */
+    border-radius: 8px; /* Border radius */
+    
+    display: inline-block; /* Inline block display */
+
+    padding: 10px; /* Padding */
+    margin: 35px; /* Margin */
+}
+
+/* Heading and paragraph inside section */
+section h4, p {
+    text-align: center; /* Center align text */
+    margin: 10px 0px; /* Margin */
+}
+
+/* Image inside section */
+section img {
+    width: 200px; /* Width */
+    height: 130px; /* Height */
+
+    border: 1px solid #000; /* Border */
+    border-radius: 14px; /* Border radius */
+    
+    margin: 0px auto; /* Center align horizontally */
+    display: block; /* Block display */
+}
+
+/* Footer styling */
+footer div {
+    color: #fff; /* Text color */
+    background-color: #000; /* Background color */
+    padding: 30px; /* Padding */
+    text-align: center; /* Center align text */
+}

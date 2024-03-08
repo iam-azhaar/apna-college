@@ -1,0 +1,63 @@
+/*
+    Exercise: Display Property
+
+    Description:
+    This CSS file defines styles for a set of boxes and demonstrates various uses of the display property.
+
+    1. The body element is styled with a background color and font family.
+    2. The .inline class styles an inline element with red text on a black background.
+    3. The .block class styles a block-level element with white text on a black background and adds a margin.
+    4. The .box class styles a box element with a fixed width, height, border, border radius, margin, and center-aligned text. It is displayed as an inline-block.
+    5. The .box1, .box2, and .box3 classes each define a different background color for the box elements.
+    6. The .box4 class hides the element by setting its display property to none.
+*/
+
+/* Styles for the entire body */
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    background-color: rgb(200, 200, 200); /* Set background color */
+}
+
+/* Styles an inline element */
+.inline {
+    color: #f00; /* Red text color */
+    background-color: #000; /* Black background color */
+    display: inline; /* Display as inline element */
+}
+
+/* Styles a block-level element */
+.block {
+    color: #fff; /* White text color */
+    background-color: #000; /* Black background color */
+    margin: 20px 0px; /* Margin spacing */
+    display: block; /* Display as block-level element */
+}
+
+/* Styles a box element */
+.box {
+    color: #fff; /* White text color */
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    border: 2px solid #000; /* Set border */
+    border-radius: 12px; /* Set border radius */
+    margin: 10px auto; /* Set margin */
+    text-align: center; /* Center-align text */
+    display: inline-block; /* Display as inline-block element */
+}
+
+/* Different background colors for box elements */
+.box1 {
+    background-color: #f00; /* Red background */
+}
+.box2 {
+    background-color: #0f0; /* Green background */
+}
+.box3 {
+    background-color: #00f; /* Blue background */
+}
+
+/* Hides the element */
+.box4 {
+    background-color: crimson; /* Set background color */
+    display: none; /* Hide element */
+}

@@ -11,19 +11,19 @@
 
 /* Styles for visible element */
 .visible {
-    visibility: visible;
-    background-color: #00ff00; /* Green */
+    visibility: visible; /* Make the element visible */
+    background-color: #00ff00; /* Green background */
 }
 
 /* Styles for invisible element */
 .invisible {
-    visibility: hidden;
-    background-color: #ff0000; /* Red */
+    visibility: hidden; /* Hide the element */
+    background-color: #ff0000; /* Red background */
 }
 
 /* Styles for invisible element without occupying space */
 .invisible-space {
-    visibility: hidden;
-    display: none;
-    background-color: #0000ff; /* Blue */
+    visibility: hidden; /* Hide the element */
+    display: none; /* Remove from layout flow */
+    background-color: #0000ff; /* Blue background */
 }

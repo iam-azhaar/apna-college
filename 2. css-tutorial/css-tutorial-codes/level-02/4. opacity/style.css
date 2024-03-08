@@ -22,28 +22,34 @@
     color: #000000; /* Black */
 }
 
-
 /* Exercise */
 .box {
+    /* Common styles for boxes */
     width: 150px;
     height: 150px;
-    
     border: 1px solid #000000;
     border-radius: 10px;
-    
     margin: 20px;
     display: inline-block;
     text-align: center;
 }
+
+/* Box with opacity: 100% */
 .box1 {
-    background-color: rgba(4, 170, 109, 1);
+    background-color: rgba(4, 170, 109, 1); /* Fully opaque */
 }
+
+/* Box with opacity: 60% */
 .box2 {
-    background-color: rgba(4, 170, 109, 0.800);
+    background-color: rgba(4, 170, 109, 0.800); /* 60% opacity */
 }
+
+/* Box with opacity: 30% */
 .box3 {
-    background-color: rgba(4, 170, 109, 0.500);
+    background-color: rgba(4, 170, 109, 0.500); /* 30% opacity */
 }
+
+/* Box with opacity: 10% */
 .box4 {
-    background-color: rgba(4, 170, 109, 0.100);
+    background-color: rgba(4, 170, 109, 0.100); /* 10% opacity */
 }
