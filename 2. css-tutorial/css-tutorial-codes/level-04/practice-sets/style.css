@@ -1,66 +1,76 @@
+/* Resetting margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Setting font family for the body */
 body {
     font-family: cursive, sans-serif;
 }
 
-
-/* Ques: 01 */
+/* Styling for navigation */
 nav ul {
     width: 100%;
     height: 80px;
-    background-color: rgb(255, 192, 203);
-
+    background-color: rgb(255, 192, 203); /* Background color */
+    
+    /* Flexbox styles */
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-evenly; /* Evenly distributing space between items */
+    align-items: center; /* Centering items vertically */
 }
 
+/* Removing default list styles */
 ul li {
     list-style: none;
 }
 
+/* Styling for navigation links */
 li a {
-    color: #000;
-    background-color: #fff;
-
+    color: #000; /* Text color */
+    background-color: #fff; /* Background color */
+    
+    /* Border styles */
     border: 1px solid #000;
-    border-radius: 12px;
-
+    border-radius: 12px; /* Rounded corners */
+    
+    /* Padding for space inside the link */
     padding: 6px 20px;
-    text-decoration: none;
+    
+    text-decoration: none; /* Removing underline */
 }
 
-
-/* Ques: 02 */
+/* Styling for main box */
 .main-box {
     width: 300px;
     height: 300px;
-    background-color: chartreuse;
+    background-color: chartreuse; /* Background color */
 }
 
+/* Styling for outer box */
 .outer-box {
     width: 200px;
     height: 200px;
-    background-color: crimson;
+    background-color: crimson; /* Background color */
 }
 
+/* Applying flexbox styles to main and outer boxes */
 .main-box, .outer-box {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
 }
 
+/* Styling for inner box */
 .inner-box {
     width: 100px;
     height: 100px;
-    background-color: cornflowerblue;
+    background-color: cornflowerblue; /* Background color */
 }
 
+/* Applying border and border-radius to all boxes */
 .main-box, .outer-box, .inner-box {
-    border: 1px solid #000;
-    border-radius: 12px;
+    border: 1px solid #000; /* Border styles */
+    border-radius: 12px; /* Rounded corners */
 }

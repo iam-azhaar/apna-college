@@ -1,79 +1,84 @@
+/* Setting the font family for the entire body */
 body {
     font-family: sans-serif;
 }
 
+/* Center aligning the heading and boxes */
 h1, .box {
     text-align: center;
 }
 
+/* Adding border to elements */
 .border {
     border: 2px solid #000;
     border-radius: 8px;
 }
 
+/* Styling the flex container */
 .flex-container {
-    /* width: 400px; */
+    /* Setting width and height of the flex container */
     width: 700px;
     height: 200px;
 
-    /* padding: 5px; */
+    /* Centering the flex container horizontally */
     margin: 0px auto;
 
+    /* Displaying flex */
     display: flex;
 
+    /* Setting flex direction to row */
     flex-direction: row;
 
+    /* Center aligning items along the main axis */
     justify-content: center;
 
+    /* Center aligning items along the cross axis */
     align-items: center;
-    
-    /* flex-wrap: wrap; */
-
-    /* align-content: center; */
 }
 
+/* Styling the boxes */
 .box {
-    width: 100px;
-    height: 100px;
-    margin: 2px;
+    width: 100px; /* Width of each box */
+    height: 100px; /* Height of each box */
+    margin: 2px; /* Margin between boxes */
 }
 
+/* Styling for box1 */
 .box1 {
-    background-color: #C7EAE4;
+    background-color: #C7EAE4; /* Background color for box1 */
     
-    /* height: 60px; */
-
+    /* Flex shrink property */
     flex-shrink: 2;
 }
 
+/* Styling for box2 */
 .box2 {
-    background-color: #A7E8BD;
+    background-color: #A7E8BD; /* Background color for box2 */
 
-    /* height: 100px; */
-
-    /* align-self: flex-end; */
-
+    /* Flex grow property */
     flex-grow: 2;
 }
 
+/* Styling for box3 */
 .box3 {
-    background-color: #FCBCB8;
+    background-color: #FCBCB8; /* Background color for box3 */
 
+    /* Flex shrink property */
     flex-shrink: 2;
 }
 
+/* Styling for box4 */
 .box4 {
-    background-color: #EFA7A7;
+    background-color: #EFA7A7; /* Background color for box4 */
 
-    /* height: 80px; */
-
-    /* align-self: flex-start; */
-
+    /* Flex grow property */
     flex-grow: 2;
 }
 
+/* Styling for box5 */
 .box5 {
-    background-color: #FFD972;
+    background-color: #FFD972; /* Background color for box5 */
 
+    /* Flex shrink property */
     flex-shrink: 2;
 }
